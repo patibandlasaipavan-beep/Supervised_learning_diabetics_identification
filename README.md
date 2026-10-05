@@ -1,4 +1,4 @@
-```markdown
+
 # Diabetes Prediction using Machine Learning
 
 This repository contains an end-to-end machine learning project to predict diabetes based on diagnostic measurements. The analysis investigates different data imputation strategies, evaluates multiple classification models, and provides recommendations for clinical deployment.
@@ -82,4 +82,3 @@ We highly recommend deploying the **Logistic Regression model trained on feature
 1. **Clinical Feasibility**: Discarding `Insulin` (48.7% missing) and `SkinThickness` (29.6% missing) avoids the need for expensive or delayed lab tests, making predictions immediate and cheaper to obtain.
 2. **Superior Generalization & Stability**: It achieves the highest **ROC AUC (83.80%)** and the lowest Standard Deviation (**0.0199**), indicating highly reliable performance across unseen patient profiles.
 
-```
